@@ -1,0 +1,16 @@
+#get input value from user for what year they want to check as a leap year
+
+year = int(input("Which year do you want to check? "))
+
+#use modulous operator to check if year is divisible by 4, 100, and 400 respectively 
+
+if year % 4 == 0:
+    if year % 100 == 0:
+        if year % 400 == 0:
+            print("Leap year.")
+        else:
+            print("Not leap year.")
+    else:
+        print("Leap year.")
+else:
+    print("Not leap year.")
