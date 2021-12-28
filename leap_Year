@@ -3,6 +3,7 @@
 year = int(input("Which year do you want to check? "))
 
 #use modulous operator to check if year is divisible by 4, 100, and 400 respectively 
+#reminder has to be 0
 
 if year % 4 == 0:
     if year % 100 == 0:
